@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mallika Bar & Restaurant | Modern Indian Dining</title>
+  <meta name="description" content="Mallika Bar & Restaurant—modern Indian cuisine, craft cocktails, and warm hospitality. Reserve your table today.">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mallika Bar & Restaurant">
+  <meta property="og:description" content="Modern Indian cuisine, craft cocktails, and warm hospitality.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.your-domain.com/">
+  <meta property="og:image" content="https://www.your-domain.com/assets/hero.jpg">
+
+  <!-- LocalBusiness / Restaurant JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Mallika Bar & Restaurant",
+    "image": "https://www.your-domain.com/assets/hero.jpg",
+    "logo": "https://www.your-domain.com/assets/logo.svg",
+    "servesCuisine": ["Indian", "Contemporary"],
+    "priceRange": "££",
+    "telephone": "+44 161 000 0000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Sample Street",
+      "addressLocality": "Manchester",
+      "postalCode": "M1 1AA",
+      "addressCountry": "GB"
+    },
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification","dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"],"opens": "12:00","closes": "22:00"},
+      {"@type": "OpeningHoursSpecification","dayOfWeek": ["Friday","Saturday"],"opens": "12:00","closes": "23:30"},
+      {"@type": "OpeningHoursSpecification","dayOfWeek": "Sunday","opens": "12:00","closes": "21:00"}
+    ],
+    "url": "https://www.your-domain.com/",
+    "sameAs": ["https://www.instagram.com/mallika","https://www.facebook.com/mallika"]
+  }
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="index.html">
+      <img src="assets/logo.svg" alt="Mallika logo">
+      <span>Mallika</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu">☰</button>
+      <ul id="navMenu" class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Reserve</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <picture>
+        <img src="assets/hero.jpg" alt="Dining table with signature dishes and cocktails at Mallika">
+      </picture>
+      <h1>Modern Indian Dining, Crafted with Heart</h1>
+      <p>Signature small plates, vibrant mains, and a cocktail bar inspired by seasonal spices.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="menu.html">View Menu</a>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="container grid grid--3 mt-xl">
+      <article class="card">
+        <h3>Lunch & Dinner</h3>
+        <p>Set menus and sharing plates for every occasion.</p>
+      </article>
+      <article class="card">
+        <h3>Craft Cocktails</h3>
+        <p>Signature drinks with cardamom, tamarind, and citrus notes.</p>
+      </article>
+      <article class="card">
+        <h3>Private Events</h3>
+        <p>Celebrate with bespoke menus and group packages.</p>
+      </article>
+    </section>
+
+    <!-- Featured dishes -->
+    <section class="container mt-xl">
+      <h2 class="section-title">Guest Favourites</h2>
+      <div class="grid grid--3">
+        <div class="tile">
+          <img src="assets/dishes/dish1.jpg" alt="Tandoori prawns">
+          <p>Charred, citrus glaze, herb chutney.</p>
+        </div>
+        <div class="tile">
+          <img src="assets/dishes/dish2.jpg" alt="Butter chicken">
+          <p>Silky tomato sauce, fenugreek, cream.</p>
+        </div>
+        <div class="tile">
+          <img src="assets/dishes/dish3.jpg" alt="Paneer Tikka">
+          <h4>Paneer Tikka</h4>
+          <p>Smoked peppers, onion, mint yoghurt.</p>
+        </div>
+      </div>
+      <div class="center mt-md">
+        <a class="btn btn--secondary" href="menu.html">See Full Menu</a>
+      </div>
+    </section>
+
+    <!-- Hours & location -->
+    <section class="band mt-xl">
+      <div class="container grid grid--2">
+        <div>
+          <h2>Find Us</h2>
+          <p>123 Sample Street, Manchester M1 1AA</p>
+          <p><strong>Call:</strong> <a href="tel:+441610000000">+44 161 000 0000</a></p>
+          <p><strong>Email:</strong> <a href="mailto:bookings@mallika.example">bookings@mallika.example</a></p>
+          <div class="hours">
+            <h3>Opening Hours</h3>
+            <ul>
+              <li>Mon-Thu: 12:00-22:00</li>
+              <li>Fri-Sat: 12:00-23:30</li>
+              <li>Sun: 12:00-21:00</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <iframe title="Mallika on Google Map" class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!..."></iframe>
+        </div>
+      </div>
+      <div class="cta cta--newsletter">
+        <h3>Be first to hear about specials</h3>
+        <form class="form" aria-label="Newsletter signup">
+          <label for="email" class="sr-only">Email</label>
+          <input id="email" name="email" type="email" placeholder="Your email" required>
+          <button class="btn btn--primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="logo-small" src="assets/logo.svg" alt="Mallika logo">
+        <p>Dining & cocktail bar in the heart of Manchester.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact & Reservations</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+      <div class="footer-meta">
+        <p>© <span id="year"></span> Mallika Bar & Restaurant. All rights reserved.</p>
+        <p>Follow us:
+          <a href="https://www.instagram.com/mallika">Instagram</a> |
+          <a href="https://www.facebook.com/mallika">Facebook</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie notice -->
+  <div class="cookie" role="dialog" aria-live="polite" hidden>
+    <p>We use cookies to improve your experience. <a href="privacy.html">Learn more</a>.</p>
+    <button class="btn btn--secondary cookie__accept">Accept</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
